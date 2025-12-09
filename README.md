@@ -1,22 +1,69 @@
-# Pikachu Birthday Website 🎂⚡
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Pikachu</title>
+<style>
+body {
+    background: linear-gradient(to right, #ffcc00, #ff9900);
+    text-align: center;
+    font-family: Arial;
+    padding: 50px;
+}
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+h1 { color: orange; font-size: 40px; }
+p { font-size: 20px; }
 
-This is a simple birthday wish website created for Pikachu’s birthday on 10th December.
+img {
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
 
-## Features
-- Cute birthday message
-- Pikachu image
-- Background music
-- Mobile-friendly design
-- Hosted free using GitHub Pages
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: yellow;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+</style>
+</head>
 
-## How to View the Website
-Open this link in your browser:
-https://penguin-design.github.io/ifyouknowyouknow/
+<body>
 
-## Created Using
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages
+<div class="card">
 
-Made with love 💛⚡
+<h1>🎂 Happy Birthday Pikachu ⚡</h1>
+
+<img src="pikachu.jpg" alt="Pikachu">
+
+<p>Born on 10th December 💛</p>
+<p>Stay cute, stay electric!</p>
+
+<button onclick="playMusic()">🎵 Play Music</button>
+<button onclick="wish()">Click for Surprise</button>
+
+</div>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="bg-music" loop>
+  <source src="Voh Dekhnay Mein.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function wish() {
+    alert("⚡ Pika Pika! Happy Birthday Pikachu! ⚡");
+}
+
+function playMusic() {
+    document.getElementById("bg-music").play();
+}
+</script>
+
+</body>
+</html>
