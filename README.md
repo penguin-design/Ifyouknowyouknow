@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 <title>Happy Birthday Pikachu</title>
 <style>
