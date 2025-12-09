@@ -11,7 +11,7 @@ This is a simple birthday wish website created for Pikachu’s birthday on 10th 
 
 ## How to View the Website
 Open this link in your browser:
-https://YOUR-USERNAME.github.io/pikachu-birthday/
+https://penguin-design.github.io/ifyouknowyouknow/
 
 ## Created Using
 - HTML
